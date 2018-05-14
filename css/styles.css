@@ -1,0 +1,22 @@
+/* NAVBAR STYLES */
+
+/* JUMBOTRON STYLES */
+.name_banner{
+  background-image: url("../img/light_tunnel.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.name_banner h1{
+  color:white;
+}
+
+.name_banner p{
+  color:white;
+}
+
+.petstore{
+  background-image: url("../img/pet_store.png");
+  background-position: center;
+  background-size: cover;
+}
