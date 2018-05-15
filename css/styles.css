@@ -1,6 +1,63 @@
-/* NAVBAR STYLES */
+/* PAGE STYLES */
+.background_color{
+  background-color: #2f4f4f;
+}
+.glow{
+  box-shadow: 1px 1px 30px 1px #0ff;
+}
+.padding{
+  padding-top:50px;
+  padding-bottom: 300px;
+}
 
+.text_glow{
+  text-shadow: 0px 0px 20px #0ff;
+}
+/* NAVBAR STYLES */
+.navbar.navbar-default {
+    background-color: #2f4f4f;
+    border: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.navbar.navbar-default .navbar-collapse {
+    border: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+
+}
+
+.white_text{
+  color:white
+}
+
+.navbar-default .navbar-nav>li>a{
+  color:white;
+  transition: 0s;
+}
+.navbar-default .navbar-nav>li>a:hover{
+  background-color: #0ff;
+  opacity: 0.5;
+  color: white;
+  transition: 2s;
+}
 /* JUMBOTRON STYLES */
+.gamer_font{
+  font-family: "Press Start 2p";
+  font-size: 20px;
+}
+.marker_font{
+  font-family: "Permanent Marker";
+}
+.code_font{
+  font-family: "Audiowide";
+  font-size: 20px
+}
+.designer_font{
+  font-family: "Monoton";
+  font-size: 20px;
+}
 .name_banner{
   background-image: url("../img/light_tunnel.jpg");
   background-position: center;
@@ -14,9 +71,34 @@
 .name_banner p{
   color:white;
 }
-
-.petstore{
-  background-image: url("../img/pet_store.png");
-  background-position: center;
+.carousel-height{
+  height: 20vh;
+}
+/* CONTACT STYLES */
+#contact h1{
+  font-family: 'Audiowide', sans-serif;
+  font-weight: 700px;
+  font-size: 4em;
+  margin-top: 50px;
+  color:#fff;
+}
+#contact .form-group span{
+  color: #ff0d06;
+}
+#contact form{
+  border: 1px solid #fff;
+  background-color: #2f4f4f;
+  padding: 15px;
+}
+#contact p{
+  font-weight: 500;
+  color:white;
+  font-family: "Audiowide"
+}
+/* ABOUT PAGE STYLES */
+#our_story{
+  background-image: url('../img/nintendo2.jpg');
   background-size: cover;
+  background-position: center;
+  height: 100vh;
 }
