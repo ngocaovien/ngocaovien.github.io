@@ -1,12 +1,132 @@
+/* PAGE STYLES */
+.shading_bckg{
+  background-color:rgba(47, 79, 79, 0.8);
+  background-image: url('../img/light_tunnel.jpg');
+  background-position: center;
+  background-size: cover;
+  box-shadow: 1px 1px 20px 1px #0ff;
+}
+.shading_bckg_big{
+  background-color:rgba(47, 79, 79, 0.8);
+  background-image: url('../img/light_tunnel.jpg');
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
+.shade{
+  border: double 4px white;
+  box-shadow: 1px 1px 20px 1px #0ff;
+  border-radius:10px;
+  background-color:rgba(47, 79, 79, 0.8);
+  padding: 20px;
+}
+p{
+  color:white;
+}
+.background_color{
+  background-color: #2f4f4f;
+  max-width: 100%;
+}
+.glow{
+  box-shadow: 1px 1px 30px 1px #0ff;
+}
+.padding{
+  padding-top:50px;
+  padding-bottom: 300px;
+}
+.padding-top{
+  padding-top:100px;
+}
+.text_glow{
+  text-shadow: 0px 0px 20px #0ff;
+}
+.audio_text{
+  font-family: "Audiowide";
+}
 /* NAVBAR STYLES */
-
+div .nav_height{
+  height:100px;
+}
+.navbar.navbar-default {
+    background-color: #2f4f4f;
+    border: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+.navbar.navbar-default .navbar-collapse {
+    border: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+.white_text{
+  color:white
+}
+.navbar-default .navbar-nav>li>a{
+  margin-top:20px;
+  font-size: 25px;
+  font-family: "Audiowide";
+  margin-right: 20px;
+  color:white;
+  transition: 0s;
+  text-shadow: 1px 1px 1px #0ff;
+  text-decoration: none;
+}
+.navbar-default .navbar-nav>li>a:hover{
+  /* border-top: gray;
+  text-shadow: 1px 1px 1px #ff00f4;
+  color: white;
+  transition: 2s; */
+  transition-timing-function: ease-in;
+   transition: 2s;
+   border-radius: 20px;
+   /*background-color:#ff00f4;*/
+   box-shadow: 1px 1px 30px 2px #ff00f4;
+   color:#ff00f4; /*#ff00f4 is a neon purple alternate*/
+   text-shadow: 2px 2px 2px #ff00f4
+}
 /* JUMBOTRON STYLES */
+.jumbotron p{
+  font-size: 30px;
+}
+.gamer_font{
+  font-family: "Press Start 2p";
+  font-size: 20px;
+}
+.marker_font{
+  font-family: "Permanent Marker";
+}
+.code_font{
+  font-family: "Audiowide";
+  font-size: 30px;
+}
+.designer_font{
+  font-family: "Monoton";
+  font-size: 35px;
+}
 .name_banner{
   background-image: url("../img/light_tunnel.jpg");
   background-position: center;
   background-size: cover;
+  box-shadow: 1px 1px 20px 1px #0ff;
 }
-
+.contact_btn{
+  background-color:#2f4f4f;
+  border:none;
+  font-family: "Press Start 2p";
+  transition: 0s:
+}
+.contact_btn:hover{
+  background-color:#ff00f4;
+  transition:2s;
+}
+.btn-group-lg>.btn, .btn-lg{
+  transition: 0s;
+}
+.btn-group-lg>.btn, .btn-lg:hover{
+  transition: 2s;
+  background-color: #ff00f4;
+  box-shadow: 1px 1px 40px 2px #ff00f4;
+}
 .name_banner h1{
   color:white;
 }
@@ -14,9 +134,148 @@
 .name_banner p{
   color:white;
 }
-
-.petstore{
-  background-image: url("../img/pet_store.png");
+.carousel-height{
+  height: 20vh;
+}
+/* CONTACT STYLES */
+.slide{
+  box-shadow: 1px 1px 30px 1px #0ff;
+}
+.contact_bkg{
+  background-image: url('../img/contact_bkg.jpg');
   background-position: center;
   background-size: cover;
+  padding: 20px 40px 40px 40px;
+  margin-top: 30px;
+  box-shadow: 1px 1px 20px 1px #0ff;
+}
+#contact h1{
+  font-weight: 700;
+  color:white;
+  font-family: "Audiowide";
+  color:#fff;
+}
+#contact div.col-md-12{
+  border: double 4px white;
+  box-shadow: 1px 1px 20px 1px #0ff;
+  border-radius:10px;
+  background-color:rgba(47, 79, 79, 0.8);
+}
+#contact .form-group span{
+  color: #ff0d06;
+}
+#contact form{
+  border-radius: 10px;
+  border: 3px double #fff;
+  font-weight: 500;
+  background-color: #2f4f4f;
+  padding: 15px;
+  box-shadow: 1px 1px 30px 1px #0ff;
+}
+#contact p{
+  font-weight: 500;
+  color:white;
+  text-align: right;
+  font-size: 20px;
+  font-family: "Audiowide";
+  text-transform: uppercase;
+  }
+  #contact div.col-md-6{
+    padding-top: 40px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+/* ABOUT PAGE STYLES */
+#my_story{
+  background-image: url('../img/about_bkg.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  box-shadow: 1px 1px 20px 1px #0ff;
+  font-family: "Permanent Marker";
+}
+#my_story h1{
+  text-shadow: 1px 1px 6px #0ff;
+  font-size: 50px;
+}
+#my_story h2{
+  font-size: 40px1
+  text-shadow: 1px 1px 6px #0ff;
+  box-shadow: 1px 1px 20px 1px #0ff;
+  padding:20px;
+  text-align: center;
+}
+#my_story a{
+  font-size: 20px;
+  font-family: "Arial";
+  text-decoration: none;
+  text-transform: none;
+  color: white;
+  text-align: center;
+  transition: 0s;
+  align: center;
+  background-color:#0ff;
+}
+#my_story a:hover{
+  color:#ff00f4; /*#ff00f4 is a neon purple alternate*/
+  text-shadow: 2px 2px 2px #ff00f4;
+  transition: 2s;
+}
+#my_story p, li{
+  font-size: 20px;
+  font-family: "Arial";
+}
+#my_story div.col-md-4{
+  border: double 4px white;
+  box-shadow: 1px 1px 20px 1px #0ff;
+}
+/* FOOTER STYLES */
+/* footer{
+  display:flex;
+  align-content: flex-end;
+}
+footer div h4{
+  text-shadow: 0px 0px 20px #0ff;
+  color:white;
+} */
+
+.footer{
+    /* margin-top:50px; */
+    /* display: block; */
+    border: double white 4px;
+    border-radius: 10px;
+    padding:10px;
+    background-color: #2f4f4f;
+    box-shadow: 1px 1px 30px 1px #0ff;
+}
+
+/* .footer_group{
+    display: inline-block;
+} */
+
+.fa-instagram{
+    color:#fff;
+    font-size: 40px;
+    padding-left:20px;
+    text-shadow: 1px 1px 6px #0ff;
+}
+
+.fa-youtube{
+    color:#fff;
+    font-size: 40px;
+    padding-left:20px;
+    text-shadow: 1px 1px 6px #0ff;
+}
+
+.fa-amazon{
+    color:#fff;
+    font-size: 40px;
+    padding-left:20px;
+    text-shadow: 1px 1px 6px #0ff;
+}
+.fa-google{
+      color:#fff;
+      font-size: 40px;
+      padding-left:20px;
+      text-shadow: 1px 1px 6px #0ff;
 }
