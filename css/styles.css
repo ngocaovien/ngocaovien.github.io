@@ -195,8 +195,9 @@ div .nav_height{
   font-family: "Permanent Marker";
 }
 #my_story h1{
-  text-shadow: 1px 1px 6px #0ff;
+  text-shadow: 1px 3px 6px #0ff;
   font-size: 50px;
+  text-align: center;
 }
 #my_story h2{
   font-size: 40px1
@@ -214,11 +215,12 @@ div .nav_height{
   text-align: center;
   transition: 0s;
   align: center;
-  background-color:#0ff;
+
 }
 #my_story a:hover{
-  color:#ff00f4; /*#ff00f4 is a neon purple alternate*/
+  color:#white; /*#ff00f4 is a neon purple alternate*/
   text-shadow: 2px 2px 2px #ff00f4;
+  border-radius:10;
   transition: 2s;
 }
 #my_story p, li{
@@ -258,6 +260,7 @@ footer div h4{
     font-size: 40px;
     padding-left:20px;
     text-shadow: 1px 1px 6px #0ff;
+    transition: 0s;
 }
 
 .fa-youtube{
@@ -265,6 +268,7 @@ footer div h4{
     font-size: 40px;
     padding-left:20px;
     text-shadow: 1px 1px 6px #0ff;
+    transition: 0s;
 }
 
 .fa-amazon{
@@ -272,10 +276,17 @@ footer div h4{
     font-size: 40px;
     padding-left:20px;
     text-shadow: 1px 1px 6px #0ff;
+    transition: 0s;
 }
 .fa-google{
       color:#fff;
       font-size: 40px;
       padding-left:20px;
       text-shadow: 1px 1px 6px #0ff;
+      transition: 0s;
+}
+.fa-google:hover, .fa-amazon:hover, .fa-youtube:hover, .fa-instagram:hover{
+    color:white;
+    text-shadow: 2px 2px 2px #ff00f4;
+    transition:2s;
 }
